@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Moon+Dance&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Moon+Dance&family=Playfair+Display&family=Roboto+Slab&display=swap');
+
+.header_content {
+    background-color: brown;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.nav_style {
+    background-color: rgb(11, 131, 236);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ul_style {
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    font-size: 24px;
+    padding-top: 30px;
+    list-style-type: none;
+}
+
+body {
+    background-color: gray;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-family: 'Moon Dance', cursive;
+    font-size: 70px;
+    margin: 5px;
+}
+
+div > a {
+    position: absolute;
+    top: 45px;
+    right: 20px;
+}
+
+footer {
+    background-color: brown;
+    height: 120px;
+    font-family: 'Roboto Slab', serif;
+}
+
+footer > p {
+    padding: 30px 15px 0px 15px;
+}
+
+footer > a {
+    padding: 0px 15px 30px 15px;
+}
+
+li {
+    font-family: 'Roboto Slab', serif;
+}
+
+main {
+    font-family: 'Roboto Slab', serif;
+    background-color: rgb(11, 131, 236);
+    padding: 10px;
+    margin-right: 10px;
+}
+
+aside {
+    font-family: 'Roboto Slab', serif;
+    background-color: rgb(11, 131, 236);
+    padding: 10px;
+}
+
+h2 {
+    font-family: 'Moon Dance', cursive;
+    text-align: center;
+}
+
+.main_and_aside {
+    display: flex;
+    background-color: brown;
+    padding: 10px;
+    letter-spacing: 1px;
+    font-size: 24px;
+}
+
+aside > img {
+    width: 300px;
+    height: 300px;
+}
+
+div > img {
+    width: 300px;
+    height: 300px;
+    padding-right: 5px;
+}
+
+.pictures_bird {
+    display: flex;
+    margin-bottom: 5px;
+}
